@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F2E_3week</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="nav_left">
+                <h1><a href="#">Shoptime</a></h1>
+                <ul>
+                    <li><a href="http://">HOME</a></li>
+                    <li><a href="http://">ORDER</a></li>
+                    <li><a href="http://">PRODUCT</a></li>
+                </ul>
+            </div>
+            <div class="nav_right">
+                <h2><a href="">Admin</a></h2>
+            </div>
+        </div>
+        <div class="topContent">
+            <div class="tpmenu">
+                <h2>OVERVIEW</h2>
+                <div class="timeShow">
+                    <span>2018/06/16</span>
+                    <span> <i class="fas fa-caret-right"></i> 2018/06/30</span>
+                    <span> Weekly <i class="fas fa-caret-down"></i>
+
+                    </span>
+                </div>
+            </div>
+            <div class="boxShow">
+                <div>
+                    <h3><i class="far fa-money-bill-alt"> TOTAL REVENUE</i></h3>
+                    <P class="font_green">54,540</P>
+                </div>
+                <div><h3><i class="fas fa-shopping-cart"> TOTAL COST</i></h3>
+                    <P class="font_red">666</P>
+                </div>
+                <div><h3><i class="fas fa-dollar-sign"> TOTAL INCOME</i></h3>
+                    <P class="font_blue">666666</P>
+                </div>
+            </div> 
+        </div>
+        <div class="mainContent">
+            <h2>Activity</h2>
+            <canvas id="myChart" width="400" height="106px"></canvas>
+        </div>
+        <div class="footer_left">
+           
+            <div class="list_web">
+                <h3>Transcation Website</h3>
+                <ul>
+                    <li><i class="fab fa-facebook-square web_logo"></i><span class="web_font">Facebook.com</span><span class="web_font_m">5654</span><span class="font_green"><i class="fas fa-arrow-up"></i> 20%</span></li>
+                    <li><i class="fab fa-google web_logo"></i><span class="web_font">Google.com</span><span class="web_font_m">&nbsp&nbsp6354</span><span class="font_green"><i class="fas fa-arrow-up"></i> 30%</span></li></li>
+                    <li><i class="fas fa-cart-plus web_logo" style="padding-right: 15px;"></i><span class="web_font">Shopify.com</span><span class="web_font_m" style="padding-left: 68px;">6554</span><span class="font_green"><i class="fas fa-arrow-up"></i> 10%</span></li></li>
+                    <li><i class="fab fa-wordpress web_logo"></i><span class="web_font">Wordpress.com</span><span class="web_font_m" style="padding-left: 48px;">8584</span><span class="font_green"><i class="fas fa-arrow-up"></i> 60%</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_right">
+            <div class="list_people">
+                <h3>Latest Orders</h3>
+                <ul>
+                    <li><img src="../img/123.jpg" alt="">
+                        <div class="infor">
+                            <h4>T-shirt</h4><br>
+                            <span class="font_gray">2018/06/30</span><span class="float_right">Total</span>
+                            <p><span class="font_gray">Lee</span><span class="float_right font_price">3200</span></p>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <img src="../img/1234.jpg" alt="">
+                        <div class="infor">
+                            <h4>Coat</h4><br>
+                            <span class="font_gray">2018/06/20</span><span class="float_right">Total</span>
+                            <p><span class="font_gray">Joe</span><span class="float_right font_price">3000</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/12345.jpg" alt="">
+                        <div class="infor">
+                            <h4>Cloth</h4><br>
+                            <span class="font_gray">2018/06/25</span><span class="float_right">Total</span>
+                            <p><span class="font_gray">Jane</span><span class="float_right font_price">3020</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../js/all.js"></script>
+</body>
+</html>
